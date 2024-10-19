@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setInterval-2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2>Dynamic Number Count</h2>
+    <div class="mainConatiner">
+        <!-- ==================== First Card ========================= -->
+        <div class="card">
+            <p>Counting Started [ 0 to <span class="txtSpn">___</span> ]</p>
+            <div class="inner">
+                <input type='number' min="1" max="1000" placeholder="input number...">
+                <button onclick="inpBtnFun(0)">Add</button> 
+            </div>
+            <h1 class="mainData"data-alu=''>0</h1>
+        </div>
+        <!-- here 0,1,2 is the index numbers of this first, second & third Add button. this numbers are passing through js parameter individually. -->
+         <!-- ==================== Second Card ========================= -->
+        <div class="card">
+            <p>Counting Started [ 0 to <span class="txtSpn">___</span> ]</p>
+            <div class="inner">
+                <input type='number' min="1" max="1000" placeholder="input number...">
+                <button onclick="inpBtnFun(1)">Add</button> 
+            </div>
+            <h1 class="mainData"data-alu=''>0</h1>
+        </div>
+         <!-- ==================== Third Card ========================= -->
+        <div class="card">
+            <p>Counting Started [ 0 to <span class="txtSpn">___</span> ]</p>
+            <div class="inner">
+                <input type='number' min="1" max="1000" placeholder="input number...">
+                <button onclick="inpBtnFun(2)">Add</button> 
+            </div>
+            <h1 class="mainData"data-alu=''>0</h1>
+        </div>
+    </div> 
+    <!-- ==================== Run & Stop buttons ========================== -->
+    <div class="buttonsss">
+        <button class="run" onclick="runBtnFun()">Run</button>
+        <button class="resetBtn">Stop</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/srcipt.js"></script>
+</body>
+</html>

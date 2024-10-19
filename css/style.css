@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(24, 1, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: #FFE700;
+    font-size: 30px;
+    font-weight: 700;
+}
+.mainConatiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card{
+    /* background-color: aqua; */
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+p{
+    color: white;
+    font-weight: 700;
+}
+.txtSpn{
+    color: chartreuse;
+}
+.inner{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #FFE3E3;
+    font-weight: 500;
+}
+input:focus{
+    background: #FEFFA7;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+    rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #C9E9D2;
+    border: none;
+    outline: none;
+    transition: all linear 0.2s;
+}
+button:hover{
+    background: #FFE700;
+}
+.mainData{
+    width: 100px;
+    height: 100px;
+    background: rgb(24, 1, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.707);
+    box-shadow: rgba(164, 2, 2, 0.858) 0px 0px 70px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 100px;
+}
+.buttonsss{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.run{
+    width: 70px;
+    height: 50px;
+    font-size: 20px;
+    background: #5AB2FF;
+    color: rgb(8, 0, 47);
+}
+.resetBtn{
+    width: 70px;
+    height: 50px;
+    color: #2E073F;
+    font-size: 20px;
+    background: #FF6868;
+    
+}
